@@ -1,0 +1,122 @@
+header {
+  width: 100%;
+  height: 40px;
+  background-color: #666666;
+}
+.contaner {
+  display: flex;
+  gap: 30px;
+  margin: 20px;
+}
+.contaner .start {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+}
+
+.start .navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.start .navbar .element {
+  display: flex;
+  gap: 2px;
+}
+.start .navbar .element div:first-of-type {
+  background-color: #666666;
+}
+
+.start .navbar .element div {
+  flex: 1;
+  padding: 10px;
+  width: 50px;
+  background-color: rgb(232, 232, 232);
+}
+.icon {
+  width: 20px;
+  height: 20px;
+}
+.contaner .big_img {
+  width: 100%;
+  height: 510px;
+  background-color: #666666;
+}
+.start .sections {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 20px;
+}
+.start .sections .section {
+  width: 19%;
+  font-size: 8px;
+}
+.start .sections .section .sm-img {
+  width: 100%;
+  height: 100px;
+  background-color: #c6c6c6;
+}
+/* end part  */
+.contaner .end {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .end .menu{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10px;
+    width: 100%;
+  }
+  .end .menu div{
+  width: 30px;
+  height: 20px;
+  background-color: #c6c6c6;
+  }
+  .end .md_img{
+    width: 100%;
+    height: 500px;
+    background-color: #c6c6c6;
+  }
+  .end .cards{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .end .cards .header{
+    width: 100%;
+    height: 30px;
+    background-color: #666666;
+  }
+  .end .cards .card{
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  .end .cards .card{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .end .cards .card .content{
+    display: flex;
+    padding: 10px  5px ;
+    gap: 5px;
+  }
+  .end .cards .card .content .img{
+    width: 50%;
+    height: 100px;
+    background-color: #c6c6c6;
+  }
+  .end .cards .card .content .text{
+    width: 50%;
+    margin-top: 0;
+  }
+  .end .cards .card .content .text p{
+    margin: 0;
+    font-size: 12px;
+    color: #666666;
+  }
+
+  
